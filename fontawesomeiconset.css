@@ -1,0 +1,275 @@
+/* FONT AWESOME ADD ICONS TO LINKS CODE */
+
+.voidcharlinks a:before {
+  font-family: FontAwesome;
+}
+
+.voidcharlinks a.star:before {
+  content: "\f005";
+}
+
+.voidcharlinks a.book:before {
+  content: "\f02d";
+}
+
+.voidcharlinks a.pen1:before {
+  content: "\f304";
+}
+
+.voidcharlinks a.pen2:before {
+  content: "\f5ac";
+}
+
+.voidcharlinks a.pen3:before {
+  content: "\f305";
+}
+
+.voidcharlinks a.pencil:before {
+  content: "\f303";
+}
+
+.voidcharlinks a.tack:before {
+  content: "\f08d";
+}
+
+.voidcharlinks a.heart:before {
+  content: "\f004";
+}
+
+.voidcharlinks a.phone:before {
+  content: "\f095";
+}
+
+.voidcharlinks a.messages:before {
+  content: "\f086";
+}
+
+.voidcharlinks a.msgdots:before {
+  content: "\f4ad";
+}
+
+.voidcharlinks a.cellphone:before {
+  content: "\f3cd";
+}
+
+.voidcharlinks a.archive:before {
+  content: "\f187";
+}
+
+.voidcharlinks a.file:before {
+  content: "\f15c";
+}
+
+.voidcharlinks a.folder1:before {
+  content: "\f07b";
+}
+
+.voidcharlinks a.folder2:before {
+  content: "\f07c";
+}
+
+.voidcharlinks a.camera:before {
+  content: "\f083";
+}
+
+.voidcharlinks a.portrait:before {
+  content: "\f3e0";
+}
+
+.voidcharlinks a.image:before {
+  content: "\f03e";
+}
+
+.voidcharlinks a.images:before {
+  content: "\f302";
+}
+
+.voidcharlinks a.musicnote:before {
+  content: "\f001";
+}
+
+.voidcharlinks a.record:before {
+  content: "\f8d9";
+}
+
+.voidcharlinks a.cd:before {
+  content: "\f51f";
+}
+
+.voidcharlinks a.bookmark:before {
+  content: "\f02e";
+}
+
+.voidcharlinks a.scroll:before {
+  content: "\f70e";
+}
+
+.voidcharlinks a.guitar:before {
+  content: "\f7a6";
+}
+
+.voidcharlinks a.film:before {
+  content: "\f008";
+}
+
+/* PREMIUM FONT AWESOME ADD ICONS TO LINKS */
+
+.voidcharlinks a.guitars:before {
+  content: "\f8bf";
+}
+
+.voidcharlinks a.musicnote2:before {
+  content: "\f8cf";
+}
+
+.voidcharlinks a.piano:before {
+  content: "\f8d4";
+}
+
+.voidcharlinks a.radio:before {
+  content: "\f8d7";
+}
+
+.voidcharlinks a.turntable:before {
+  content: "\f8e4";
+}
+
+.voidcharlinks a.oldscroll:before {
+  content: "\f70f";
+}
+
+.voidcharlinks a.magicwand:before {
+  content: "\f72b";
+}
+
+.voidcharlinks a.moonstars:before {
+  content: "\f755";
+}
+
+.voidcharlinks a.starwarsbook:before {
+  content: "\f66a";
+}
+
+.voidcharlinks a.ringedplanet:before {
+  content: "\e020";
+}
+
+.voidcharlinks a.moonplanet:before {
+  content: "\e01f";
+}
+
+.voidcharlinks a.raygun:before {
+  content: "\e025";
+}
+
+.voidcharlinks a.solarsystem:before {
+  content: "\e02f";
+}
+
+.voidcharlinks a.deathstar:before {
+  contenet: "\e033";
+}
+
+.voidcharlinks a.xwing:before {
+  content: "\e037";
+}
+
+.voidcharlinks a.shootingstar:before {
+  content: "\e036";
+}
+
+.voidcharlinks a.falconship:before {
+  content: "\e03a";
+}
+
+.voidcharlinks a.telescope:before {
+  content: "\e03e";
+}
+
+.voidcharlinks a.ufo:before {
+  content: "\e047";
+}
+
+.voidcharlinks a.palmtree:before {
+  content: "\f82b";
+}
+
+.voidcharlinks a.sword:before {
+  content: "\f71c";
+}
+
+.voidcharlinks a.swords:before {
+  content: "\f71d";
+}
+
+.voidcharlinks a.amp:before {
+  content: "\f8a1";
+}
+
+.voidcharlinks a.boombox:before {
+  content: "\f8a5";
+}
+
+.voidcharlinks a.moviecamera:before {
+  content: "\f8a9";
+}
+
+.voidcharlinks a.film2:before {
+  content: "\f3a0";
+}
+
+.voidcharlinks a.filmcontainer:before {
+  content: "\f8b7";
+}
+
+.voidcharlinks a.microphone:before {
+  content: "\f8cb";
+}
+
+.voidcharlinks a.mp3player:before {
+  content: "\f8ce";
+}
+
+.voidcharlinks a.vhs:before {
+  content: "\f8ec";
+}
+
+.voidcharlinks a.bookheart:before {
+  content: "\f499";
+}
+
+.voidcharlinks a.boxheart:before {
+  content: "\f49d";
+}
+
+.voidcharlinks a.handsheart:before {
+  content: "\f4c3";
+}
+
+.voidcharlinks a.squareheart:before {
+  content: "\f4c8";
+}
+
+.voidcharlinks a.witchhat:before {
+  content: "\f6e7";
+}
+
+.voidcharlinks a.wizardhat:before {
+  content: "\f6e8";
+}
+
+.voidcharlinks a.pencilruler:before {
+  content: "\f5ae";
+}
+
+.voidcharlinks a.books:before {
+  content: "\f5db";
+}
+
+.voidcharlinks a.openbook:before {
+  content: "\f518";
+}
+
+.voidcharlinks a.electricguitar:before {
+  content: "\f8be";
+}
