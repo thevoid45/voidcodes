@@ -34,7 +34,7 @@ html, html[data-theme="dark"] .voidcolors {
   color: var(--voidwhite);
 }
 
-.voideyes b, .voideyes i {
+.voideyes b, .voideyes i, .voidchar b, .voidchar i {
   background: var(--graddark);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
