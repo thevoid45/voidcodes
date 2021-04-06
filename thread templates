@@ -1,0 +1,41 @@
+.voidcolors {
+--voidbg1: 266, 266, 266;
+--voidwhite: #ffffff;
+}
+
+html, html[data-theme="dark"] .voidcolors {
+--voidbg1: 54, 57, 62;
+}
+.voideyes {
+  color: var(--font);
+  width: 500px;
+  margin: 20px auto;
+  height: auto;
+  background: linear-gradient(180deg, rgba(var(--mgrgb),.5) 0%, rgba(var(--mgrgb2),.5) 50%, rgba(var(--mgrgb3),.5) 100%);
+  border-radius: 30px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.voideyes-in {
+  width: 500px;
+  border-radius: 20px;
+  background: rgba(var(--voidbg1),0.8);
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: justify;
+}
+
+.voideyestag {
+  margin-top: 15px; 
+  margin-bottom: 15px;
+  color: var(--voidwhite);
+}
+
+.voideyes b, .voideyes i {
+  background: var(--graddark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
