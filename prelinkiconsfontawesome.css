@@ -1,7 +1,7 @@
 /* FONT AWESOME ADD ICONS TO LINKS CODE */
 
 .voidcharlinks a:before {
-  font-family: FontAwesome;
+  font-family: 'FontAwesome';
 }
 
 .voidcharlinks a.star:before {
