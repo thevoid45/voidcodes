@@ -19,11 +19,6 @@ html, html[data-theme="dark"] .voidcolors {
   text-align: center;
 }
 
-.tywh.voideyes {
-  color: var(--text);
-  background: rgba(var(--mgrp),0.5);
-}
-
 .voideyes-in {
   width: 500px;
   border-radius: 20px;
@@ -33,20 +28,10 @@ html, html[data-theme="dark"] .voidcolors {
   text-align: justify;
 }
 
-.tywh.voideyes .voideyes-in {
-  background: rgba(var(--element2r, 0.8);
-}
-
 .voideyestag {
   margin-top: 15px; 
   margin-bottom: 15px;
   color: var(--voidwhite);
-}
-
-.tywh.voideyes .voideyestag {
-  color: var(--white);
-  margin-top: 15px; 
-  margin-bottom: 15px;
 }
 
 .voideyes b, .voideyes i {
