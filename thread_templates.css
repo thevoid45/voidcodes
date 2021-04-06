@@ -45,6 +45,8 @@ html, html[data-theme="dark"] .voidcolors {
 
 .tywh.voideyes .voideyestag {
   color: var(--white);
+  margin-top: 15px; 
+  margin-bottom: 15px;
 }
 
 .voideyes b, .voideyes i {
