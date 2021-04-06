@@ -101,6 +101,9 @@ html, html[data-theme="dark"] .voidcolors {
 }
 
 .voidcharlinks a {
-  color: var(--voidwhite);
-  text-decoration: none;
+  background: none !important;
+ -webkit-box-decoration-break: initial !important;
+-webkit-background-clip: initial !important;
+-webkit-text-fill-color: initial !important;
+ color: var(--voidwhite) !important;
 }
