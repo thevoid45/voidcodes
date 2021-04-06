@@ -3,7 +3,7 @@
 --voidwhite: #ffffff;
 }
 
-html, html[data-theme="dark"] .voidcolors {
+[data-theme="dark"] .voidcolors {
 --voidbg1: 54, 57, 62;
 }
 .voideyes {
