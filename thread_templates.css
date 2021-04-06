@@ -40,6 +40,14 @@ html, html[data-theme="dark"] .voidcolors {
   -webkit-text-fill-color: transparent;
 }
 
+.voidchar .fas {
+  background: none !important;
+ -webkit-box-decoration-break: initial !important;
+-webkit-background-clip: initial !important;
+-webkit-text-fill-color: initial !important;
+ color: var(--voidwhite) !important;
+}
+
 
 
 /* CHARACTER TEMPLATES ONE */
