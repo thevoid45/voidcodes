@@ -48,7 +48,6 @@ html, html[data-theme="dark"] .voidcolors {
   color: var(--font);
   width: 600px;
   margin: 20px auto;
-  min-height: 200px;
   height: auto;
   background: linear-gradient(180deg, rgba(var(--mgrgb),.5) 0%, rgba(var(--mgrgb2),.5) 50%, rgba(var(--mgrgb3),.5) 100%);
   border-radius: 30px;
@@ -82,7 +81,6 @@ html, html[data-theme="dark"] .voidcolors {
 
 .voidchar-in {
   width: 500px;
-  min-height: 200px;
   border-radius: 20px;
   background: rgba(266,266,266,0.8);
   box-sizing: border-box;
