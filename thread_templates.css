@@ -39,3 +39,68 @@ html, html[data-theme="dark"] .voidcolors {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+/* CHARACTER TEMPLATES ONE */
+
+.voidchar {
+  color: var(--font);
+  width: 600px;
+  margin: 20px auto;
+  min-height: 200px;
+  height: auto;
+  background: linear-gradient(180deg, rgba(var(--mgrgb),.5) 0%, rgba(var(--mgrgb2),.5) 50%, rgba(var(--mgrgb3),.5) 100%);
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative; 
+}
+
+.voidchar.centerimg {
+  justify-content: center;
+}
+
+.voidchar .charicon {
+  position: absolute;
+  font-size: 80px;
+  left: 16px;
+  color: var(--voidwhite);
+}
+
+.voidchar img.sideimage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: absolute;
+  left: 16px;
+}
+
+.voidchar-in {
+  width: 500px;
+  min-height: 200px;
+  border-radius: 20px;
+  background: rgba(266,266,266,0.8);
+  box-sizing: border-box;
+  padding: 15px;
+  align-self: flex-end;
+}
+
+.voidchar-in.middle {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.voidcharlinks {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.voidcharlinks a {
+  color: var(--voidwhite);
+  text-decoration: none;
+}
