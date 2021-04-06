@@ -1,10 +1,12 @@
 .voidcolors {
 --voidbg1: 266, 266, 266;
+--voidbg2: #E8E8E8;
 --voidwhite: #ffffff;
 }
 
 html, html[data-theme="dark"] .voidcolors {
 --voidbg1: 54, 57, 62;
+--voidbg2: #4a4a4a;
 }
 .voideyes {
   color: var(--font);
