@@ -1,3 +1,9 @@
+.voidcolors {
+--voidbg1: 266, 266, 266;
+--voidbg2: #f0f0f0;
+--voidwhite: #ffffff;
+}
+
 /* DEV TEMPLATES */
 
 .voiddev1 {
