@@ -4,6 +4,11 @@
 --voidwhite: #ffffff;
 }
 
+html, html[data-theme="dark"] .voidcolors {
+--voidbg1: 54, 57, 62;
+--voidbg2: #4a4a4a;
+}
+
 /* DEV TEMPLATES */
 
 .voiddev1 {
