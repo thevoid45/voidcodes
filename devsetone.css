@@ -81,7 +81,7 @@ html, html[data-theme="dark"] .voidcolors {
 .voiddev1 .words {
   width: 500px;
   border-radius: 20px;
-  background: rgba(266,266,266,0.8);
+  background: rgba(var(--voidbg1),0.8);
   box-sizing: border-box;
   padding: 15px;
   text-align: justify;
