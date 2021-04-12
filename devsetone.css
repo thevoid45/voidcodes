@@ -5,8 +5,8 @@
 }
 
 html, html[data-theme="dark"] .voidcolors {
---voidbg1: 54, 57, 62!important;
---voidbg2: #4a4a4a!important;
+--voidbg1: 54, 57, 62;
+--voidbg2: #4a4a4a;
 }
 
 
