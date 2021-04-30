@@ -28,6 +28,7 @@ html, html[data-theme="dark"] .voidcolors {
   box-sizing: border-box;
   padding: 15px;
   text-align: justify;
+  line-height: 1.5;
 }
 
 .voideyestag {
