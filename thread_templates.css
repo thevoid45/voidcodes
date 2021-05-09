@@ -306,7 +306,6 @@ html, html[data-theme="dark"] .voidcolors {
   font-size: 16px;
   line-height: 1.5;
   padding-bottom: 10px;
-  text-align: justify;
 }
 
 .happybday .top {
@@ -357,4 +356,18 @@ html, html[data-theme="dark"] .voidcolors {
   background: var(--graddark);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.happybday h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  width: 460px;
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.happybday h2 a {
+  margin-left: 0px;
 }
