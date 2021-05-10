@@ -346,6 +346,11 @@ html, html[data-theme="dark"] .voidcolors {
   content: "\ebde";
 }
 
+.happybday a.dev:before {
+  content: "\ecb9";
+  font-family:'cappuccicons';
+}
+
 .happybday a.comm:before {
   font-family:'cappuccicons';
   content: "\ebeb";
