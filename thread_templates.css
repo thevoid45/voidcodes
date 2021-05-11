@@ -409,6 +409,7 @@ html, html[data-theme="dark"] .voidcolors {
 .phonecomm .inner::-webkit-scrollbar {
      width: 5px;
      height: 5px;
+     background: transparent;
 }
 .phonecomm .inner::-webkit-scrollbar-track {
      background-color: transparent;
