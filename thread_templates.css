@@ -394,7 +394,7 @@ html, html[data-theme="dark"] .voidcolors {
   width: 260px;
   height: 340px;
   border-radius: 20px;
-  background: rgba(266,266,266,0.8);
+  background: rgba(var(--voidbg1),0.8);
   box-sizing: border-box;
   padding: 10px;
   text-align: justify;
@@ -431,7 +431,7 @@ html, html[data-theme="dark"] .voidcolors {
   width: 260px;
   height: 25px;
   border-radius: 20px;
-  background: rgba(266,266,266,0.8);
+  background: rgba(var(--voidbg1),0.8);
   box-sizing: border-box;
   text-align: justify;
   line-height: 1.5;
