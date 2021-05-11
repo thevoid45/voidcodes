@@ -376,3 +376,91 @@ html, html[data-theme="dark"] .voidcolors {
 .happybday h2 a {
   margin-left: 0px;
 }
+
+/* ANOTHER COMM TEMPLATE */
+
+.phonecomm {
+  width: 300px;
+  background: var(--gradrot);
+  height: 455px;
+  border-radius: 20px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding-top: 10px;
+  font-family: 'poppins', sans-serif;
+}
+
+.phonecomm .inner {
+  width: 260px;
+  height: 340px;
+  border-radius: 20px;
+  background: rgba(266,266,266,0.8);
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 20px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 16px;
+  overflow-y: scroll;
+}
+
+.phonecomm .inner::-webkit-scrollbar {
+     width: 5px;
+     height: 5px;
+}
+.phonecomm .inner::-webkit-scrollbar-track {
+     background-color: transparent;
+}
+ .phonecomm .inner::-webkit-scrollbar-thumb {
+   background: transparent;
+}
+
+.phonecomm .inner p {
+  width: 240px;
+  background: var(--gradlight);
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px 10px 0px 10px;
+}
+
+.phonecomm .type {
+  width: 260px;
+  height: 25px;
+  border-radius: 20px;
+  background: rgba(266,266,266,0.8);
+  box-sizing: border-box;
+  text-align: justify;
+  line-height: 1.5;
+  margin-left: 20px;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-top: 1px;
+}
+
+.phonecomm .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: var(--voidwhite);
+  font-size: 20px;
+  font-family: 'Cutive', serif;
+}
+
+.phonecomm .top img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.phonecomm b, .phhonecomm i {
+   background: var(--graddark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
