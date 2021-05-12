@@ -44,6 +44,8 @@ html, html[data-theme="dark"] .voidcolors {
 .voideyestag a.user-tagged.mgroup-4, .voideyestag a.user-tagged.mgroup-3, .voideyestag a.user-tagged.mgroup-6, .voideyestag a.user-tagged.mgroup-7, .voideyestag a.user-tagged.mgroup-8, .voideyestag a.user-tagged.mgroup-9, .voideyestag a.user-tagged.mgroup-10, .voideyestag a.user-tagged.mgroup-11, .voideyestag a.user-tagged.mgroup-12, .voideyestag a.user-tagged.mgroup-13, .voideyestag a.user-tagged.mgroup-14, .voideyestag a.user-tagged.mgroup-15, .voideyestag a.user-tagged.mgroup-16, .voideyestag a.user-tagged.mgroup-17, .voideyestag a.user-tagged.mgroup-18 {
   background: none!important;
   color: var(--voidwhite)!important;
+  -webkit-background-clip: none!important; 
+  -webkit-text-fill-color: var(--voidwhite)!important;
 }
 
 .voideyes b, .voideyes i, .voidchar b, .voidchar i, .voidcharrow b {
