@@ -473,3 +473,74 @@ html, html[data-theme="dark"] .voidcolors {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* CHALLENGE ONE */
+
+.c1thread {
+  border: 10px solid var(--voidbg3);
+  background-image: linear-gradient(1800deg, rgba(var(--mgrgb),.5) 0%, rgba(var(--mgrgb2),.5) 50%, rgba(var(--mgrgb3),.55) 100%);
+  width: 470px;
+  border-radius: 35px;
+  margin: 20px auto;
+}
+
+.c1thread .inner {
+  width: 450px;
+  height: auto;
+  min-height: 200px;
+  background: var(--voidbg3);
+  margin: 20px auto;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.c1thread .inner img {
+  float: left;
+  margin-right: 10px;
+  height: 87px;
+  width: 87px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.c1thread .inner .tag {
+  text-align: center;
+  padding: 5px;
+  background: var(--gradlight);
+  margin: 0px auto;
+  margin-top: 15px;
+  width: 400px;
+  border-radius: 20px;
+  color: var(--voidwhite);
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.c1thread .inner h1 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  color: rgba(var(--mgrgb3),1);
+}
+
+.c1thread b, .c1thread i {
+   background: var(--graddark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.c1thread a.user-tagged.mgroup-4, .c1thread a.user-tagged.mgroup-3, .c1thread a.user-tagged.mgroup-6, .c1thread a.user-tagged.mgroup-7, .c1thread a.user-tagged.mgroup-8, .c1thread a.user-tagged.mgroup-9, .c1thread a.user-tagged.mgroup-10, .c1thread a.user-tagged.mgroup-11, .c1thread a.user-tagged.mgroup-12, .c1thread a.user-tagged.mgroup-13, .c1thread a.user-tagged.mgroup-14, .c1thread a.user-tagged.mgroup-15, .c1thread a.user-tagged.mgroup-16, .c1thread a.user-tagged.mgroup-17, .c1thread a.user-tagged.mgroup-18 {
+  background: none!important;
+  color: var(--voidwhite)!important;
+  -webkit-background-clip: none!important; 
+  -webkit-text-fill-color: var(--voidwhite)!important;
+}
