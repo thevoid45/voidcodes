@@ -545,6 +545,8 @@ html, html[data-theme="dark"] .voidcolors {
   -webkit-text-fill-color: var(--voidwhite)!important;
 }
 
+/* WINTER DOWN REQUEST */
+
 @font-face {
 font-family: 'alinea';
 src: url('https://files.jcink.net/uploads2/loreofthevoid/alineatypeface_webfont.woff2') format('woff2'),
@@ -573,6 +575,7 @@ font-style: normal;
   border-radius: 15px;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 20px;
+  position: relative;
 }
 
 .winterdown titleimg {
@@ -621,8 +624,8 @@ font-style: normal;
 
 .winterdown .inner h1 {
   font-size: 40px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   font-family: 'Alinea';
   color: rgba(81, 193, 252,1);
   font-weight: normal;
