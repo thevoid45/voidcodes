@@ -223,11 +223,11 @@ html, html[data-theme="dark"] .voidcolors {
   font-size: 16px;
   padding: 2px;
   border-radius: 5px;
-  background: var(--gradlight);
+  background:  linear-gradient(90deg, rgba(var(--mgrgb),.35) 0%, rgba(var(--mgrgb2),.35) 50%, rgba(var(--mgrgb3),.35) 100%);
 }
 
 .tablcomm name:hover {
-  background: var(--graddark);
+  background: linear-gradient(90deg, rgba(var(--mgrgb),.95) 0%, rgba(var(--mgrgb2),.95) 50%, rgba(var(--mgrgb3),.95) 100%);
   color: var(--voidwhite);
 }
 
