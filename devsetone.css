@@ -90,7 +90,7 @@ html, html[data-theme="dark"] .voidcolors {
 }
 
 .voiddev1 .words b, .voiddev1 .words i {
-  background: var(--graddark);
+  background: linear-gradient(90deg, rgba(var(--mgrgb),.95) 0%, rgba(var(--mgrgb2),.95) 50%, rgba(var(--mgrgb3),.95) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -101,7 +101,7 @@ html, html[data-theme="dark"] .voidcolors {
 
 .voiddev1 .words.qt span {
   font-size: 50px;
-  background: var(--graddark);
+  background: linear-gradient(90deg, rgba(var(--mgrgb),.95) 0%, rgba(var(--mgrgb2),.95) 50%, rgba(var(--mgrgb3),.95) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 5px;
@@ -122,7 +122,7 @@ html, html[data-theme="dark"] .voidcolors {
 }
 
 .voiddev1 .row span {
-  background: var(--graddark);
+  background: linear-gradient(90deg, rgba(var(--mgrgb),.95) 0%, rgba(var(--mgrgb2),.95) 50%, rgba(var(--mgrgb3),.95) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 10px;
