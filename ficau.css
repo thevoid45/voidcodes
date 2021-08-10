@@ -1,3 +1,18 @@
+.voidcolors {
+--voidbg1: 266, 266, 266;
+--voidbg2: #f0f0f0;
+--voidwhite: #ffffff;
+--voidwhitedark: #ffffff;
+--voidbg3: #f6f6f6;
+}
+
+html, html[data-theme="dark"] .voidcolors {
+--voidbg1: 54, 57, 62;
+--voidbg2: #4a4a4a;
+--voidbg3: #36393f;
+--voidwhitedark: #4f545c;
+}
+
 .voidblr {
   width: 500px;
   background: var(--voidbg2);
