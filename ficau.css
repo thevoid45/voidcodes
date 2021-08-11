@@ -358,3 +358,119 @@ html, html[data-theme="dark"] .voidcolors {
    background-image: linear-gradient(130deg, rgba(var(--mgrgb),.75) 0%, rgba(var(--mgrgb2),.75) 50%, rgba(var(--mgrgb3),.75) 100%);
   position: absolute;
 }
+
+/* AO3 TEMPLATES */
+
+.archivevoid {
+  width: 550px;
+  background: var(--voidbg2);
+  min-height: 200px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid var(--voidbg3);
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+}
+
+.archivevoid .webtitle {
+  width: 550px;
+  background: var(--voidbg3);
+  height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  font-family: 'Antic Slab', serif;
+  font-size: 30px;
+  color: #6bbbf5;
+  display: flex;
+  align-items: center;
+}
+
+.archivevoid .bottomborder {
+  width: 550px;
+  height: 2px;
+  background-image: linear-gradient(90deg, rgba(var(--mgrgb),.35) 0%, rgba(var(--mgrgb2),.35) 50%, rgba(var(--mgrgb3),.35) 100%);
+}
+
+.archivevoid .inner {
+  width: 500px;
+  margin: 10px auto;
+  text-align: justify;
+  position: relative;
+}
+
+.archivevoid .inner a {
+  color: var(--text);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
+  font-size: 18px;
+  font-family: 'Antic Slab', serif;
+}
+
+.archivevoid .inner a::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-image: linear-gradient(90deg, rgba(var(--mgrgb),.35) 0%, rgba(var(--mgrgb2),.35) 50%, rgba(var(--mgrgb3),.35) 100%);
+  border-radius: 1px;
+}
+
+.archivevoid .inner b {
+  font-weight: normal;
+  position: relative;
+  padding-bottom: 2px;
+  font-family: 'Antic Slab', serif;
+}
+
+.archivevoid .inner b::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-image: linear-gradient(90deg, rgba(var(--mgrgb),.35) 0%, rgba(var(--mgrgb2),.35) 50%, rgba(var(--mgrgb3),.35) 100%);
+  border-radius: 1px;
+}
+
+.archivevoid .inner .cp {
+  position: inline;
+  font-size: 50px;
+  position: absolute;
+  left: -10px;
+  top: 5px;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   background-image: linear-gradient(90deg, rgba(var(--mgrgb),.75) 0%, rgba(var(--mgrgb2),.75) 50%, rgba(var(--mgrgb3),.75) 100%);
+}
+
+.archivevoid .inner .fictitle {
+  margin-left: 50px;
+}
+
+.archivevoid .inner .tags {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.archivevoid .inner .summary {
+  margin-bottom: 10px;
+}
+
+.archivevoid .ficstats {
+  background: var(--voidbg3);
+  height: 30px;
+  width: 550px;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'Antic Slab', serif;
+  box-sizing: border-box;
+  padding-right: 10px;
+  font-size: 14px;
+}
