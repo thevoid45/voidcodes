@@ -529,3 +529,67 @@ html, html[data-theme="dark"] .voidcolors {
   margin-top: 10px;
 }
 
+/* ARCHIVE THREAD */
+
+.archivethread {
+  width: 550px;
+  background: var(--voidbg2);
+  min-height: 100px;
+  height: auto;
+  border: 2px solid var(--voidbg3);
+  margin: 20px auto;
+  border-radius: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+}
+
+.archivethread .webtitle {
+  width: 550px;
+  background: var(--voidbg3);
+  height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  font-family: 'Antic Slab', serif;
+  font-size: 30px;
+  color: #6bbbf5;
+  display: flex;
+  align-items: center;
+}
+
+.archivethread .bottomborder {
+  width: 550px;
+  height: 2px;
+  background-image: linear-gradient(90deg, rgba(var(--mgrgb),.35) 0%, rgba(var(--mgrgb2),.35) 50%, rgba(var(--mgrgb3),.35) 100%);
+}
+
+.archivethread .inner {
+  width: 525px;
+  text-align: justify;
+  margin: 10px auto;
+}
+
+.archivethread .ficstats {
+  background: var(--voidbg3);
+  height: 30px;
+  width: 550px;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'Antic Slab', serif;
+  box-sizing: border-box;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+.archivethread .inner b, .archivethread .inner i {
+  font-family: 'Antic Slab', serif;
+}
+
+.archivethread .inner h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-family: 'Antic Slab', serif;
+  font-size: 25px;
+  text-align: center;
+}
