@@ -487,6 +487,7 @@ html, html[data-theme="dark"] .voidcolors {
   border-radius: 20px;
   font-family: 'Manrope', sans-serif;
   position: relative;
+  font-size: 16px;
 }
 
 .voidblrlike .top {
