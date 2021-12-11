@@ -162,6 +162,12 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
   border-radius: 20px;
 }
 
+.mytthread4 .tag.image .cp {
+  color: var(--white);
+  font-size: 40px;
+  margin-top: 10px;
+}
+
 .mytthread4 .tag a {
   color: var(--white);
   writing-mode: vertical-rl;
