@@ -39,7 +39,7 @@
   justify-content: center;
 }
 
-.mytthread1 .inner b, .mytthread2 .inner b {
+.mytthread1 .inner b, .mytthread2 .inner b, .mytthread3 .inner b {
   background-image: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 100%);
   color: var(--text);
   font-weight: normal;
@@ -87,5 +87,38 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
 
 .mytthread2 .tag a {
   color: var(--white);
+  text-transform: uppercase;
+}
+
+.mytthread3 {
+  width: 450px;
+  min-height: 100px;
+  height: auto;
+  background: var(--element2); -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+  margin: 20px auto;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.mytthread3 img {
+  width: 450px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.mytthread3 .inner {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.mytthread3 .tag {
+  margin: 0px auto 10px;
+  margin-bottom: 10px;
+  text-align: center;
   text-transform: uppercase;
 }
