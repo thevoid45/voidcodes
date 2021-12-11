@@ -66,6 +66,12 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
   margin: 10px auto;
 }
 
+.mytthread2 img.rectangle {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+}
+
 .mytthread2 .tag {
   text-align: center;
   margin-top: 10px;
