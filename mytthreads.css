@@ -39,11 +39,13 @@
   justify-content: center;
 }
 
-.mytthread1 .inner b, .mytthread2 .inner b, .mytthread3 .inner b {
+.mytthread1 .inner b, .mytthread2 .inner b, .mytthread3 .inner b, .mytthread4 .inner b {
   background-image: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 100%);
   color: var(--text);
   font-weight: normal;
 }
+
+/* THREAD TEMPLATE TWO */
 
 .mytthread2 {
   width: 450px;
@@ -90,6 +92,8 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
   text-transform: uppercase;
 }
 
+/* THREAD TEMPLATE THREE */
+
 .mytthread3 {
   width: 450px;
   min-height: 100px;
@@ -121,4 +125,44 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
   margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
+}
+
+/* THREAD TEMPLATE FOUR */
+
+.mytthread4 {
+  width: 500px;
+  background-image: linear-gradient(180deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  min-height: 100px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+  display: flex;
+}
+
+.mytthread4 .tag {
+  width: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mytthread4 .tag a {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.mytthread4 .inner {
+  width: 450px;
+  background: var(--element2);
+  border-radius: 0px 20px 20px 0px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: justify;
 }
