@@ -1,0 +1,93 @@
+?* COMM CODE ONE */
+
+.mytcomm1 {
+  width: 300px;
+  height: 450px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  margin: 20px auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+  position: relative;
+}
+
+.mytcomm1 img.texting {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+
+.mytcomm1 .tag {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.mytcomm1 .tag a {
+  color: var(--white);
+}
+
+.mytcomm1 .inner {
+  width: 300px;
+  height: 400px;
+  background: var(--element2);
+  border-radius: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.mytcomm1 .inner .inside {
+  width: 100%;
+  height: 90%;
+  overflow-y: scroll;
+  padding-right: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mytcomm1 .inner .inside p {
+  text-align: justify;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 100%);
+  max-width: 200px;
+  padding: 7px;
+  border-radius: 10px 10px 0px 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.mytcomm1 .inner .inside::-webkit-scrollbar-track {
+     background-color: var(--element2);
+}
+
+.mytcomm1 .inner .type {
+  width: 195px;
+  background: var(--element1);
+  margin-top: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  border-radius: 20px;
+  color: var(--element3);
+}
+
+.mytcomm1 .inner .send {
+  width:45px;
+  height: 45px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  border-radius: 22.5px;
+  margin-left: 5px;
+  margin-top: 2.5px;
+  color: var(--white);
+  font-size: 30px;
+  box-sizing: border-box;
+  padding: 5px;
+}
