@@ -141,3 +141,83 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
   margin-left: 10px;
   border-radius: 10px;
 }
+
+/* IMAGE POST */
+
+.astralimage {
+  width: 435px;
+  min-height: 400px;
+  background: var(--element2);
+  margin: 20px auto;
+  border-radius: 20px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.4) 0%, rgba(var(--color2),0.4) 100%);
+  box-sizing: border-box;
+  padding: 5px;
+    -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+}
+
+.astralimage .inner {
+  width: 425px;
+  min-height: 390px;
+  background: var(--element2);
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.astralimage .logo.cp {
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 100%);
+  font-size: 20px;
+  z-index: 1;
+  display: block;
+  
+}
+
+.astralimage img.main {
+  margin-top: 5px;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.astralimage .caption {
+  display: flex;
+}
+
+.astralimage .avi {
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 100%);
+  border-radius: 45px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.astralimage .avi img {
+  width: 50px;
+  height: 50px;
+  border-radius: 45px;
+}
+
+.astralimage .words {
+  width: 325px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.astralimage .words .user {
+  font-size: 18px;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--color2),1);
+}
