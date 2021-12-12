@@ -1,0 +1,143 @@
+.astralmain {
+  background: var(--element2);
+  width: 600px;
+  height: 330px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.4) 0%, rgba(var(--color2),0.4) 100%);
+  box-sizing: border-box;
+  padding: 5px;
+    -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+}
+
+.astralmain .inner {
+  width: 590px;
+  height: 320px;
+  background: var(--element2);
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.astralmain .inner .astrallogo {
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.astralmain .inner .astrallogo b {
+  font-weight: normal;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 100%);
+  color: var(--white);
+  padding: 5px;
+  border-radius: 10px;
+  z-index: 2;
+  position: relative;
+}
+
+.astralmain .inner .astrallogo .cp {
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 100%);
+  font-size: 60px;
+  position: absolute;
+  z-index: 1;
+  left: 260px;
+  top: -15px;
+}
+
+.astralmain .inner .astrallogo .buttonone, .astralmain .inner .astrallogo .buttontwo, .astralmain .inner .astrallogo .buttonthree, .astralmain .inner .astrallogo .buttonfour {
+  font-weight: normal;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.7) 0%, rgba(var(--color2),0.7) 100%);
+  color: var(--white);
+  border-radius: 10px;
+  width: 55px;
+  height: 15px;
+  padding: 5px;
+  position: absolute;
+  font-size: 12px;
+  top: 0px;
+}
+
+.astralmain .inner .astrallogo .buttonone {
+    left: 30px;
+}
+
+.astralmain .inner .astrallogo .buttontwo {
+  left: 150px;
+}
+
+.astralmain .inner .astrallogo .buttonthree {
+  right: 30px;
+}
+
+.astralmain .inner .astrallogo .buttonfour {
+  right: 150px;
+}
+
+.astralmain .profileimage {
+  width: 170px;
+  height: 170px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.4) 0%, rgba(var(--color2),0.4) 100%);
+  border-radius: 85px;
+  margin-left: 20px;
+}
+
+.profileimage img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px; 
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.astralmain .username {
+  font-size: 25px;
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  margin-left: 15px;
+  margin-top: 10px;
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--color2),1);
+}
+
+.astralmain .bio {
+  margin-left: 40px;
+  height: 120px;
+  width: 300px;
+   background-image: linear-gradient(90deg, rgba(var(--color1),0.4) 0%, rgba(var(--color2),0.4) 100%);
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.astralmain .bio::-webkit-scrollbar-track {
+     background-color: transparent;
+}
+
+.astralmain hr {
+   background-image: linear-gradient(90deg, rgba(var(--color1),0.4) 0%, rgba(var(--color2),0.4) 100%);
+  height: 2px;
+  border:none;
+}
+
+.astralmain .followers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.astralmain .followers b {
+  font-weight: normal;
+  color: var(--white);
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.4) 0%, rgba(var(--color2),0.4) 100%);
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
