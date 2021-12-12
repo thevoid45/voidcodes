@@ -219,3 +219,27 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
   text-decoration: underline;
   text-decoration-color: rgba(var(--color2),1);
 }
+
+.astralimage .reply {
+  text-align: left;
+  margin-left: 85px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.astralimage .reply a {
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--color2),1);
+}
+
+.astralimage .reply .cp {
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+
+}
