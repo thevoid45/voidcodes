@@ -108,3 +108,21 @@
   font-weight: normal;
   font-size: 16px;
 }
+
+.mytannounce .directorymain {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mytannounce .directorymain a {
+  padding: 5px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.7) 0%, rgba(var(--color2),0.7) 100%);
+  color: var(--white);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
