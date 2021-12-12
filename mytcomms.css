@@ -123,3 +123,106 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
   color: var(--white);
   font-size: 25px;
 }
+
+
+/* COMM CODE TWO */
+
+/* COMM CODE TWO */
+
+.mytcomm2 {
+  width: 300px;
+  height: 450px;
+  margin: 20px auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+  position: relative;
+  background: var(--element2);
+  box-sizing: border-box;
+  padding-top: 0.1px;
+}
+
+.mytcomm2 .notch {
+  width: 150px;
+  background: var(--element2);
+  border-radius: 0px 0px 20px 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 75px;
+}
+
+.mytcomm2 .inner {
+  margin: 10px;
+  width: 280px;
+  height: 430px;
+   background-image: linear-gradient(90deg, rgba(var(--color1),0.7) 0%, rgba(var(--color2),0.7) 100%);
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.mytcomm2 .inner .tag {
+  text-align: center;
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.mytcomm2 .inner .tag a {
+  color: var(--white);
+}
+
+.mytcomm2 .inner .inside {
+  width: 100%;
+  height: 310px;
+  overflow-y: scroll;
+  padding-right: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mytcomm2 .inner .inside p {
+  text-align: justify;
+  background: rgba(var(--element2r),0.7);
+  max-width: 200px;
+  padding: 7px;
+  border-radius: 10px 10px 0px 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.mytcomm2 .inner .inside p img {
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.mytcomm2 .inner .inside::-webkit-scrollbar-track {
+     background-color: transparent;
+}
+
+.mytcomm2 .inner .type {
+  width: 210px;
+  height: 30px;
+  background: var(--element2);
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 10px;
+  box-sizing: border-box;
+  padding: 7px;
+  color: var(--element4);
+}
+
+.mytcomm2 .inner .send {
+  padding-top: 10px;
+}
+
+.mytcomm2 .inner .send .cp {
+  color: var(--white);
+  font-size: 30px;
+  margin-left: 15px;
+}
