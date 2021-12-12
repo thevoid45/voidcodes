@@ -41,3 +41,39 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.mytannounce .faces {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mytannounce .faces .claim {
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.7) 0%, rgba(var(--color2),0.7) 100%);
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.mytannounce .faces i {
+  color: var(--white);
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.mytannounce .faces b {
+  color: var(--white);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: normal;
+  text-tranform: capitalize;
+}
