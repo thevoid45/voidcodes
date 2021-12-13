@@ -175,3 +175,11 @@
   font-size: 18px;
   line-height: 1;
 }
+
+.mytannounce.response {
+  width: 450px;
+}
+
+.mytannounce.response .inner {
+  width: 450px;
+}
