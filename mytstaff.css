@@ -126,3 +126,52 @@
   margin-bottom: 10px;
 }
 
+.mytannounce .inner.directory .infobasics {
+  text-align: center;
+}
+
+.mytannounce .inner.directory .bio {
+  width: 100%;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.mytannounce .inner.directory .characters {
+    width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mytannounce .inner.directory .characters .char {
+   width: 510px;
+  height: 60px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.7) 0%, rgba(var(--color2),0.7) 100%);
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+  align-items: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--white);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.mytannounce .inner.directory .characters .char .cp {
+  font-size: 35px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.mytannounce .inner.directory .characters .char b {
+  color: var(--white);
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1;
+}
