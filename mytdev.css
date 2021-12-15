@@ -73,3 +73,9 @@
   color: var(--text);
   font-weight: normal;
 }
+
+.mytdev .inner.youtube iframe {
+  border-radius: 20px;
+  width: 400px;
+  height: 240px;
+}
