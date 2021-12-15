@@ -39,3 +39,15 @@
   border-radius: 10px;
   color: var(--white);
 }
+
+.mytdev .inner.double img {
+  width: 195px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.mytdev .inner.double .row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 400px;
+}
