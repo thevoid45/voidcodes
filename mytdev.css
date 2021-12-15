@@ -79,3 +79,9 @@
   width: 400px;
   height: 240px;
 }
+
+.mytdev .inner.spotify iframe {
+  border-radius: 10px;
+  width: 400px;
+  height: 80px;
+}
