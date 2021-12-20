@@ -174,3 +174,16 @@
   height: 200px;
   border-radius: 10px;
 }
+
+.mytrec1 .charactersmall {
+  width: 460px;
+  background: var(--element3);
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 14.5px;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;  
+}
