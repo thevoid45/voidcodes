@@ -187,3 +187,13 @@
   align-items: center;
   margin-top: 10px;  
 }
+
+.mytrec1 .charactersmall.ends {
+  justify-content: space-between;
+}
+
+.mytrec1 .charactersmall.ends i {
+  font-style: normal;   
+  color: var(--text);
+}
+
