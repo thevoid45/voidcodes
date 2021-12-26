@@ -500,3 +500,103 @@ box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
   background-image: linear-gradient(90deg, rgba(var(--color1),0.4) 0%, rgba(var(--color2),0.4) 100%);
   transform: rotate(40deg);
 }
+
+.antlrcomm {
+  width: 350px;
+  height: 400px;
+  background: var(--element2);
+  border-radius: 15px;
+  margin: 20px auto;
+      -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+  box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+  position: relative;
+}
+
+.antlrcomm .main.cp-deer-o {
+     position: absolute;
+  bottom: 10px;
+  font-size: 250px;
+  right: 0px;
+  z-index: 1;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(var(--color1),0.4) 0%, rgba(var(--color2),0.4) 100%);
+  transform: rotate(330deg);
+}
+
+.antlrcomm .name {
+   background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  border-radius: 15px 15px 0px 0px;
+  height:30px;
+  font-size: 20px;
+  color: var(--white);
+   text-transform: uppercase;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 15px;
+  position: relative;
+}
+
+.antlrcomm .name b {
+  font-weight: normal;
+  color: var(--white); 
+}
+
+.antlrcomm .name span {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.antlrcomm .messaging {
+  height: 305px;
+  margin-top: 5px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
+}
+
+.antlrcomm .messaging p {
+  text-align: justify;
+   background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  padding: 7px;
+  max-width: 270px;
+  margin-top: 0px;
+  border-radius: 15px 15px 0px 15px;
+  color: var(--white);
+}
+
+.antlrcomm .type {
+  width: 280px;
+  height: 30px;
+  background: var(--element3);
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 10px;
+  box-sizing: border-box;
+  padding: 7px;
+  color: var(--element2);
+  margin-left: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.antlrcomm .send {
+  padding-top: 10px;
+}
+
+.antlrcomm .send .cp {
+  color: var(--white);
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.antlrcomm .messaging::-webkit-scrollbar-track {
+     background-color: var(--element2);
+}
