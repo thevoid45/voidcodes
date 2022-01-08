@@ -299,6 +299,7 @@
 .myttracker .inner .row {
   align-items: center;
   justify-content: space-between;
+  padding-top: 10px;
 }
 
 .myttracker .inner .cp {
