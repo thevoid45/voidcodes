@@ -30,6 +30,7 @@
 .mytdev .inner.single img {
   width: 400px;
   border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .mytdev .inner .tag {
