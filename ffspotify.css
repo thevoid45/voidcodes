@@ -1,0 +1,181 @@
+.mytspotifymain {
+  width: 600px;
+  height: auto;
+  background: var(--element2);
+  margin: 20px auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+  box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+}
+
+.mytspotifymain .mainimage {
+  height: 210px;
+  background: rgba(var(--color1),1);
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.mytspotifymain .mainimage img {
+  width: 600px;
+  height: 200px;
+  border-radius: 5px 5px 10px 10px;
+}
+
+.mytspotifymain .mainimage .text {
+  position: absolute;
+  color: var(--white);
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 200;
+  bottom: 20px;
+  left: 20px;
+  text-transform: uppercase;
+}
+
+.mytspotifymain b.monthly {
+  margin-left: 10px;
+  font-weight: normal;
+  background: rgba(var(--color1),1);;
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--white);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.mytspotifymain .bio {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.mytspotifypage {
+   width: 600px;
+  height: auto;
+  background: var(--element2);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-top: 0.5px;
+}
+
+.mytspotifypageouter {
+   -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+  box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+  height: auto;
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px auto;
+  background: rgb(var(--color1),1);
+  border-radius: 5px;
+}
+
+.mytspotifypage .row {
+  flex-wrap: wrap;
+}
+
+.mytspotifypage .spotifytitle {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.mytspotifypage .albuminfo {
+  width: 180px;
+  background: rgba(var(--color1),1);
+  height: 250px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mytspotifypage .albuminfo img {
+  margin-top: 10px;
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+.mytspotifypage .albuminfo b {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-top: 10px;
+}
+
+.mytspotifyalbum {
+  width: 600px;
+  height: auto;
+  background: var(--element2);
+  border-radius: 5px;
+}
+
+.mytspotifyalbum img {
+  width: 180px;
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.mytspotifyalbum .description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 115px;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.mytspotifyalbum .description b {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.mytspotifyalbum .description x {
+   color: rgba(var(--color1),1);
+}
+
+.mytspotifyalbum .description i {
+  font-size: 14px;
+  color: var(--text);
+  font-style: normal;
+}
+
+.mytspotifyalbum hr {
+  background: rgba(var(--color1),1);
+  height: 2px;
+  border:none;
+  width: 590px;
+}
+
+.mytspotifyalbum .tracklist {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.mytspotifyalbum .tracklist numb {
+  color: rgba(var(--color1),1);
+}
+
+.mytspotifyalbum .tracklist b {
+  position: absolute; 
+  left: 60px;
+  font-weight: normal;
+  color: rgba(var(--color1),1);
+}
+
+.mytspotifyalbum .tracklist i {
+  position: absolute;
+  right: 10px;
+}
