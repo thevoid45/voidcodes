@@ -1,0 +1,198 @@
+/* CALENDAR CODE */
+
+.scenecalendar {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  background: var(--element2);
+  margin: 10px auto;
+  -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+  box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+}
+
+.scenecalendar .top {
+  width: 500px;
+  height: 50px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.scenecalendar .top .ph {
+ font-size: 40px;
+  margin-left: 15px;
+}
+
+.scenecalendar .top b {
+  color: var(--white);
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.scenecalendar .inner {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.scenecalendar .inner .weekbox {
+   background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  width: calc(14.29% - 10px);
+  height: 25px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+
+.scenecalendar .inner .datebox {
+  width: calc(14.29% - 10px);
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(var(--color1),1);
+  font-size: 20px;
+}
+
+.scenecalendar .inner .datebox.linked {
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  color: var(--white);
+}
+
+.scenecalendar .inner .datebox.linked a {
+  color: var(--white);
+}
+
+
+/* CALENDAR DEV CODES */
+
+.caldevouter {
+  width: 510px;
+  margin: 10px auto;
+  -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+  box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  padding-top: 0px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.caldev {
+  width: 500px;
+  margin: 0px auto;
+  min-height: 100px;
+  height: auto;
+  border-radius: 10px;
+  background: var(--element2);
+  border-top: none;
+}
+
+.caldev .top {
+  width: 500px;
+  height: 70px;
+  background-image: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%);
+  border-radius: 6px 6px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.caldev .top .ph, .caldev .top .cp {
+ font-size: 60px;
+  margin-left: 15px;
+}
+
+.caldev .top x {
+  color: var(--white);
+  margin-right: 15px;
+  font-size: 14px;
+  text-align: right;
+  line-height: 1;
+}
+
+.caldev .top x b {
+  display: block;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.caldev .inner {
+  box-sizing: border-box;
+  padding: 50px;
+  padding-bottom: 40px;
+}
+
+.caldev .inner.two, .caldev .inner.three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.caldev .inner.three img {
+  width: 125px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.caldev .inner.two img {
+  width: 190px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.caldev .inner.one img {
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.caldev .inner.drabble b {
+   background-image: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 100%);
+  color: var(--text);
+  font-weight: normal;
+}
+
+.caldev .inner.drabble b i {
+  font-color: var(--text);
+}
+
+.caldev .inner.drabble u {
+  text-decoration-color: rgba(var(--color1),1);
+}
+
+.caldev .inner.drabble blockquote {
+  background: var(--element1);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.caldev .inner.spotify iframe {
+  height: 80px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.caldev .inner.youtube iframe {
+  width: 400px;
+  height: 220px;
+  border-radius: 10px;
+}
