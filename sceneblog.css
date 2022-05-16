@@ -1,0 +1,129 @@
+/* BLOG */
+
+.sceneblog {
+  width: 550px;
+  min-height: 100px;
+  height: auto;
+  border-radius: 10px;
+  background: var(--element2);
+   -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+  box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+  margin: 10px auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.sceneblog .postertitle {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.sceneblog .postertitle img {
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.sceneblog .postertitle b {
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 2px;
+}
+
+.sceneblog .postertitle x {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.sceneblog .bloginner {
+  box-sizing: border-box;
+  padding: 7px;
+  text-align: justify;
+}
+
+.sceneblog .bloginner h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: normal;
+  color: rgba(var(--color1),1);
+}
+
+.sceneblog .bloginner img {
+  display: block;
+  width: 200px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.sceneblog .bloginfo {
+  font-size: 14px;
+  margin-left: 10px;
+  color: rgba(var(--color1),1);
+}
+
+.scenemainblog {
+   width: 550px;
+  min-height: 100px;
+  height: auto;
+  border-radius: 10px;
+  background: var(--element2);
+   -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+  box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+  margin: 10px auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.scenemainblog .usertitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.scenemainblog .usertitle img {
+  border-radius:  10px;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.scenemainblog .usertitle span {
+  line-height: 1.2;
+}
+
+.scenemainblog .usertitle b {
+  text-decoration: underline;
+  font-size: 20px;
+  display: block;
+}
+
+.scenemainblog .usertitle x {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.scenemainblog .gallery {
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.scenemainblog .gallery img {
+  border-radius: 2px;
+  width: 160px;
+  height: 160px;
+}
+
+.scenemainblog b.imgtitty {
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
