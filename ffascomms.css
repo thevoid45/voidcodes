@@ -1,0 +1,346 @@
+/* COMM TEMPLATES */
+
+.decaycomm1 {
+  width: 300px;
+  margin: 10px auto;
+  height: 450px;
+  background: rgba(var(--color1),1);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+}
+
+.decaycomm1 .top {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+}
+
+.decaycomm1 .top b {
+  font-weight: normal;
+  margin-right: 10px;
+  color: var(--white);
+  font-size: 20px;
+  line-height: 0.9;
+}
+
+.decaycomm1 .top .ph {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.decaycomm1 .bottom {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.decaycomm1 .bottom .textbar {
+  width: 240px;
+  background: var(--element2);
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  color: var(--element1);
+}
+
+.decaycomm1 .bottom .ph {
+  font-size: 30px;
+  color: var(--white);
+}
+
+.decaycomm1 .inner {
+  height: 350px;
+  width: 300px;
+  background: var(--element2);
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.decaycomm1 .inner .inside {
+  height: 330px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.decaycomm1 .inner p {
+  margin-top: 0px;
+  max-width: 300px;
+  background: rgba(var(--color1),0.5);
+  padding: 6px;
+  border-radius: 5px 5px 0px 5px;
+  text-align: justify;
+}
+
+.decaycomm1 .inner p img {
+  border-radius: 5px;
+}
+
+.decaycomm1 .inner .inside.call {
+  display: block;
+  text-align: justify;
+}
+
+.decaycomm1 .inner .inside.call p {
+  background: none;
+  padding: 0px;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.decaycomm1 .bottom.call {
+ justify-content: center;
+ 
+}
+
+.decaycomm1 .bottom.call .ph {
+  font-size: 45px;
+}
+
+/* THREAD TEMPLATE */
+
+.takeitthread {
+  width: 450px;
+  min-height: 100px;
+  height: auto;
+  background: var(--element2);
+  -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.takeitthread .inner {
+  min-height: 50px;
+  width: 450px;
+  padding: 25px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.takeitthread .bottom {
+  width: 450px;
+  height: 75px;
+  background: rgba(var(--color1),1);
+  border-radius: 0px 40px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.takeitthread .bottom .tag {
+  background: var(--element2);
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgba(var(--color1),1);
+}
+
+.takeitthread .bottom .ph {
+  color: var(--white);
+  font-size: 50px;
+}
+
+.takeitthread .bottom img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.takeitthread b {
+  font-weight: normal;
+  background: rgba(var(--color1),0.7);
+  color: var(--white);
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.takeitthread.comm {
+  height: 250px;
+  margin-bottom: 40px;
+}
+
+.takeitthread.comm .inner {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.takeitthread.comm .inner .inside {
+  overflow-y: scroll;
+  height: 160px;
+  padding-right: 6px;
+}
+
+.takeitthread.comm .inner .inside b {
+  background: none;
+  color: rgba(var(--color1),1);
+  font-weight: bold;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* COMM CODE TWO */
+
+.mytcomm2 {
+  width: 300px;
+  height: 450px;
+  margin: 20px auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36); 
+box-shadow: 0px 9px 17px -2px rgba(0,0,0,0.36);
+  position: relative;
+  background: var(--element2);
+  box-sizing: border-box;
+  padding-top: 0.1px;
+}
+
+.mytcomm2 .notch {
+  width: 150px;
+  height: 20px;
+  background: var(--element2);
+  border-radius: 0px 0px 20px 20px;
+  position: absolute;
+  top: 10px;
+  left: 75px;
+  z-index: 2;
+}
+
+.mytcomm2 .inner {
+  margin: 10px;
+  width: 280px;
+  height: 430px;
+   background: rgba(var(--color1),0.7);
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.mytcomm2 .inner .tag {
+  text-align: center;
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.mytcomm2 .inner .tag a {
+  color: var(--white);
+}
+
+.mytcomm2 .inner .inside {
+  width: 100%;
+  height: 310px;
+  overflow-y: scroll;
+  padding-right: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mytcomm2 .inner .inside p {
+  text-align: justify;
+  background: rgba(var(--element2r),0.7);
+  max-width: 200px;
+  padding: 7px;
+  border-radius: 10px 10px 0px 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.mytcomm2 .inner .inside p img {
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.mytcomm2 .inner .inside::-webkit-scrollbar-track {
+     background-color: transparent;
+}
+
+.mytcomm2 .inner .type {
+  width: 210px;
+  height: 30px;
+  background: var(--element2);
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  box-sizing: border-box;
+  padding: 7px;
+  padding-top: 3px;
+  color: var(--element4);
+  display: flex;
+  align-items: center;
+}
+
+.mytcomm2 .inner .send {
+  padding-top: 10px;
+}
+
+.mytcomm2 .inner .send .cp, .mytcomm2 .inner .send .ph {
+  color: var(--white);
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.mytcomm2 .inside.image {
+  height: 215px;
+}
+
+.mytcomm2 img.circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  border: 5px var(--element2) solid;
+  margin-left: 85px;
+}
+
+.mytcomm2 .inside.call {
+  background: rgba(var(--element2r),0.8);
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: block;
+  text-align: justify;
+}
+
+.mytcomm2 .inside.call p {
+  background: none;
+  max-width: none;
+  padding: 0px;
+}
+
+.mytcomm2 .callbutton {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background: var(--element2);
+  margin: 5px auto;
+  box-sizing: border-box;
+  padding: 3.5px;
+  padding-left: 7px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.mytcomm2 .callbutton .cp, .mytcomm2 .callbutton .ph {
+   color: rgba(var(--color1),1);
+}
