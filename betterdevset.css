@@ -1,0 +1,150 @@
+/* ANOTHER DEVELOPMENT SET */
+
+
+.betterdevset {
+  width: 500px;
+  height: auto;
+  min-height: 200px;
+  background: var(--element2);
+  -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+  box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid rgba(var(--color1),1);
+}
+
+.betterdevset .inner {
+  min-height: 100px;
+}
+
+.betterdevset .bottom {
+  height: 100px;
+  background: var(--element1);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.betterdevset .bottom .ph {
+  margin-left: 10px;
+  font-size: 60px;
+  color: rgba(var(--color1),1);
+}
+
+.betterdevset .bottom .title {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.betterdevset .bottom x {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 0.6;
+  letter-spacing: 1px;
+  color: rgba(var(--color1),1);
+}
+
+.betterdevset .bottom y {
+  font-size: 14px;
+}
+
+.betterdevset.one .inner {
+  padding: 50px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.betterdevset.one img {
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.betterdevset.two .inner {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.betterdevset.two img {
+  width: 195px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.betterdevset.three .inner {
+    padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+ box-sizing: border-box;
+}
+
+.betterdevset.three img {
+  width: 125px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.betterdevset.drabble .inner {
+  padding: 50px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.betterdevset.spotify .inner {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.betterdevset.spotify iframe {
+  height: 80px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.betterdevset.youtube .inner {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.betterdevset.youtube iframe {
+  width: 400px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.betterdevset.playlist .inner {
+  padding: 50px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.betterdevset.playlist .inner .list {
+  width: 400px;
+  min-height: 30px;
+  height: auto;
+  background: var(--element1);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  line-height: 1.1;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+
+.betterdevset.playlist .inner .list .ph {
+  font-size: 25px;
+  color: rgba(var(--color1),1);
+  margin-right: 10px;
+}
