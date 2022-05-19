@@ -1,0 +1,218 @@
+/* ANOTHER BLOG DESIGN */
+
+.blogtoo {
+  width: 600px;
+  min-height: 200px;
+  height: auto;
+  background: var(--element2);
+  margin: 10px auto;
+   -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+  box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+  border-radius: 10px;
+  display: flex;
+}
+
+.blogtoo .left{
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogtoo .left img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  margin-left: 25px;
+  border-radius: 20px;
+}
+
+.blogtoo .left .ph {
+  font-size: 60px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  color: rgba(var(--color1),1);
+}
+
+.blogtoo .right {
+  width: 470px;
+  box-sizing: border-box;
+  background: rgba(var(--color1),0.9);
+  border-radius: 10px;
+  border-left: 5px solid var(--element1);
+  border-right: 5px solid var(--element1);
+}
+
+.blogtoo .right .logo {
+  margin: 5px auto 0px;
+  background: var(--element1);
+  color: rgba(var(--color1),1);
+  display: flex;
+  width: max-content;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'Manrope';
+}
+
+.blogtoo .right .user {
+  font-size: 25px;
+  color: var(--white);
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: 'Manrope';
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.blogtoo .right .info {
+  font-size: 14px;
+  margin-left: 32px;
+  color: var(--white);
+  line-height: 1.1;
+  font-family: 'Manrope';
+}
+
+.blogtoo .right .postsheader {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: var(--white);
+  font-size: 18px;
+  font-family: 'Manrope';
+}
+
+.blogtoo .right .postsinner {
+  width: 400px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blogtoo .right .postsinner img {
+  width: 195px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+}
+
+.blogtoo .right .postsinner .textpost {
+  background: var(--element2);
+  width: 195px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.blogtoo .right .postsinner .textpost .inner {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  font-size: 16px;
+  font-family: 'Manrope';
+  box-sizing: border-box;
+  padding-right: 3px;
+  text-align: justify;
+}
+
+.blogtooimg {
+  width: 550px;
+  height: auto;
+  background: var(--element2);
+  margin: 10px auto 10px;
+   -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+  box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+  border-radius: 10px;
+}
+
+.blogtooimg .top {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+.blogtooimg .top .logo {
+  margin: 0px auto 0px;
+  background: var(--element1);
+  color: rgba(var(--color1),1);
+  display: flex;
+  width: max-content;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'Manrope';
+}
+
+.blogtooimg .top img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.blogtooimg .top b {
+  font-size: 25px;
+  color: rgba(var(--color1),1);
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: 'Manrope';
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.blogtooimg .top b i {
+  display: block;
+  font-size: 14px;
+  color: var(--text);
+  text-transform: lowercase;
+  font-style: normal;
+  margin-left: 23px;
+}
+
+.blogtooimg .inner {
+  border-top: 5px solid var(--element1);
+  background: rgba(var(--color1),1);
+  border-bottom: 5px solid var(--element1);
+  min-height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.blogtooimg .inner img {
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.blogtooimg .inner .blogpost {
+  background: var(--element2);
+  width: 475px;
+  min-height: 50px;
+  height: auto;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+   font-family: 'Manrope';
+}
+
+.blogtooimg .inner .blogpost b {
+   font-weight: normal;
+  background: rgba(var(--color1),0.7);
+  color: var(--white);
+  padding-right: 2px;
+  padding-left: 2px;
+}
