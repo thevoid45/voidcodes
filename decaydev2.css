@@ -1,0 +1,112 @@
+/* CALENDAR DEV CODES */
+
+.caldev {
+  width: 500px;
+  min-height: 100px;
+  height: auto;
+  border-radius: 10px;
+  background: var(--element2);
+  margin: 10px auto;
+  -webkit-box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16); 
+  box-shadow: 0px 10px 14px 2px rgba(0,0,0,0.16);
+  border: 5px solid rgba(var(--color1),1);
+  border-top: none;
+}
+
+.caldev .top {
+  width: 501px;
+  height: 70px;
+  background: rgba(var(--color1),1);
+  border-radius: 6px 6px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  margin-left: -1px;
+}
+
+.caldev .top .ph {
+ font-size: 60px;
+  margin-left: 15px;
+}
+
+.caldev .top x {
+  color: var(--white);
+  margin-right: 15px;
+  font-size: 14px;
+  text-align: right;
+  line-height: 1;
+}
+
+.caldev .top x b {
+  display: block;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.caldev .inner {
+  box-sizing: border-box;
+  padding: 50px;
+  padding-bottom: 40px;
+}
+
+.caldev .inner.two, .caldev .inner.three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.caldev .inner.three img {
+  width: 125px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.caldev .inner.two img {
+  width: 190px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.caldev .inner.one img {
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.caldev .inner.drabble b {
+   font-weight: normal;
+  background: rgba(var(--color1),0.7);
+  color: var(--white);
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.caldev .inner.drabble b i {
+  font-color: var(--white);
+}
+
+.caldev .inner.drabble u {
+  text-decoration-color: rgba(var(--color1),1);
+}
+
+.caldev .inner.drabble blockquote {
+  background: var(--element1);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.caldev .inner.spotify iframe {
+  height: 80px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.caldev .inner.youtube iframe {
+  width: 400px;
+  height: 220px;
+  border-radius: 10px;
+}
