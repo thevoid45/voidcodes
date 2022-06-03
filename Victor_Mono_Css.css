@@ -1,0 +1,169 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono Oblique';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_BoldOblique.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_ExtraLightOblique.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('hhttps://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_LightOblique.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono Oblique';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_Oblique.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_MediumOblique.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_SemiBoldOblique.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('https://files.jcink.net/uploads2/witchandthevoid/Fonts/VictorMono_ThinOblique.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
