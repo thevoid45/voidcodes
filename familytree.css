@@ -1,0 +1,220 @@
+/* TEMPLATE ONE */
+
+.decaytree .generationrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.decaytreebox {
+  width: 150px;
+  height: 140px;
+  background: var(--element2);
+  -webkit-box-shadow: 3px 3px 17px -4px rgba(0,0,0,0.19); 
+box-shadow: 3px 3px 17px -4px rgba(0,0,0,0.19);
+  border-radius: 5px;
+  position: relative; 
+  z-index: 2;
+  border: 4px solid var(--element4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decaytreebox img {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.decaytreebox x {
+  margin-top: 7px;
+  font-family: var(--sans1);
+  background: var(--element1);
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.decaytreebox x b {
+  font-weight: normal;
+}
+
+.decaytreebox i {
+  font-family: var(--sans1);
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.decaytreebox x a {
+}
+
+.decaytreeline1 {
+  width: 200px;
+  position: absolute; 
+  height: 3px;
+  top: 75px;
+  z-index: 1;
+}
+
+
+.decaytreeline2 {
+  height: 120px;
+  width: 3px;
+  position: absolute;
+  z-index: 1;
+  top: -150px;
+}
+
+.decaytree.one .decaytreeline2 {
+  height: 150px;
+}
+
+.decaytreeline1.v2 {
+  width: 550px;
+  top: -30px;
+}
+
+.decaytree.three .decaytreeline1.v2 {
+  width: 460px;
+}
+
+.decaytree.two .decaytreeline1.v2 {
+  width: 320px;
+}
+
+.decaytreeline2.v2 {
+  height: 30px;
+  top: -27px;
+  left: 100px;
+}
+
+.decaytree.three .decaytreeline2.v2 {
+  left: 145px;
+}
+
+.decaytree.two .decaytreeline2.v2 {
+  left: 215px;
+}
+
+.decaytreeline2.v2.pt2 {
+  left: 285px;
+}
+
+.decaytree.three .decaytreeline2.v2.pt2 {
+  left: 373.5px;
+}
+
+.decaytree.two .decaytreeline2.v2.pt2 {
+  left: 532px;
+}
+
+.decaytreeline2.v2.pt3 {
+  left: 465px;
+}
+
+.decaytree.three .decaytreeline2.v2.pt3 {
+  left: 602px;
+}
+
+.decaytreeline2.v2.pt4 {
+  left: 647px;
+}
+
+.decaytree.three .decaytreeline2.v2.pt4 {
+  display: none;
+}
+
+/* FAD CSS CHANGES */
+
+.fad .decaytreebox x b {
+  background-image: var(--mggradientsolid);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fad .decaytreebox x a {
+  background-image: var(--mggradientsolid);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fad .decaytreeline1 {
+  background-image: var(--mggradient);
+}
+
+.fad .decaytreeline2 {
+    background-image: var(--mggradient45deg);
+}
+
+
+/* SIDE SITE CSS CHANGES */
+
+.wav .decaytreebox x b {
+  background-image: var(--gradientdark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wav .decaytreebox x a {
+  background-image: var(--gradientdark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wav .decaytreeline1 {
+  background-image: var(--gradient5);
+}
+
+.wav .decaytreeline2 {
+    background-image: var(--gradient5-updown);
+}
+
+/* SCENE SITE CSS CHANGES */
+
+.ffas .decaytreebox x b {
+  color: rgba(var(--color1),1);
+}
+
+.ffas .decaytreebox x a {
+  color: rgba(var(--color1),1);
+}
+
+.ffas .decaytreeline1 {
+  background: rgba(var(--color1),1);
+}
+
+.ffas .decaytreeline2 {
+    background: rgba(var(--color1),1);
+}
+
+/* MYT CSS CHANGES */
+
+.myt .decaytreebox x b {
+  background-image: linear-gradient(90deg, rgb(var(--color1),1), rgb(var(--color2),1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.myt .decaytreebox x a {
+  background-image: linear-gradient(90deg, rgb(var(--color1),1), rgb(var(--color2),1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.myt .decaytreeline1 {
+  background-image: linear-gradient(90deg, rgb(var(--color1),0.5), rgb(var(--color2),0.5));
+}
+
+.myt .decaytreeline2 {
+    background-image: linear-gradient(0deg, rgb(var(--color1),0.5), rgb(var(--color2),0.5));
+}
+
+/* MYT VARIABLES */
+
+.g-6 {
+  --color1: 132, 81, 159;
+  --color2: 72, 154, 117;
+}
