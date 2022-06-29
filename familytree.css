@@ -1,3 +1,51 @@
+/* MY VARIABLES */
+
+:root {
+  --element1: #ffffff;
+  --element1r: 255,255,255;
+  --element2: #f6f6f6;
+  --element2r: 246, 246, 246;
+  --element3: #ececec;
+  --element3r: 236, 236, 236;
+  --element4: #eaeaea;
+  --element5: #e1e1e1;
+  --inverse1: #2F3136;
+  --inverse2: #36393f;
+  --inverse3: #202225;
+  --inverse4: #202225;
+  --inverse5: #4f545c;
+  --dark1: #2F3136;
+  --dark2: #36393f;
+  --dark3: #202225;
+  --dark4: #202225;
+  --dark5: #4f545c;
+  --white: #ffffff;
+  --text: #000000;
+  --sans1: 'Poppins', sans-serif;
+  --sans2: 'Montserrat', sans-serif;
+  --sans3: 'Manrope', sans-serif;
+  --mono1: 'IBM Plex Mono', monospace;
+  --script: 'Victor Mono', sans-serif;
+}
+
+[data-theme="dark"] {
+  --element1: #2F3136;
+  --element1r: 47,49,54;
+  --element2: #36393f;
+  --element2r: 54, 57, 63;
+  --element3: #202225;
+  --element3r: 32, 34, 37;
+  --element4: #202225;
+  --element5: #4f545c;
+  --inverse1: #ffffff;
+  --inverse2: #f6f6f6;
+  --inverse3: #ececec;
+  --inverse4: #e1e1e1;
+  --inverse5: #eaeaea;
+  --text: #ffffff;
+}
+
+
 /* TEMPLATE ONE */
 
 .decaytree .generationrow {
