@@ -54,6 +54,7 @@
   justify-content: space-evenly;
   margin-bottom: 80px;
   position: relative;
+  width: 100%;
 }
 
 .decaytreebox {
