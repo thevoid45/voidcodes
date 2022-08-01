@@ -327,7 +327,7 @@ box-shadow: -7px 7px 17px -1px rgba(0,0,0,0.15);
 }
 
 .mirrordev .inside.playlist span b {
-  font-family: var(--voidscript);
+  font-family: var(--script);
   font-style: italic;
   font-size: 20px;
   font-weight: normal;
