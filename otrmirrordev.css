@@ -413,3 +413,22 @@ box-shadow: -7px 7px 17px -1px rgba(0,0,0,0.15);
   -webkit-text-fill-color:transparent;
   -webkit-box-decoration-break:clone;
 }
+
+.mirrordev .code-top {
+ display: none;
+}
+
+.mirrordev .inside.code {
+ padding: 10px;
+}
+
+.mirrordev #CODE {
+ background-color: var(--element2)!important;
+ border-radius: 3px;
+-webkit-box-shadow: -7px 7px 17px -1px rgba(0,0,0,0.15); 
+box-shadow: -7px 7px 17px -1px rgba(0,0,0,0.15);
+}
+
+.mirrordev #CODE-WRAP.nicole-code {
+ border: none;
+}
