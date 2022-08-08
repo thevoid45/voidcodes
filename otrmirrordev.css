@@ -268,6 +268,7 @@ box-shadow: -7px 7px 17px -1px rgba(0,0,0,0.15);
   border-radius: 3px;
    -webkit-box-shadow: -7px 7px 17px -1px rgba(0,0,0,0.15); 
   box-shadow: -7px 7px 17px -1px rgba(0,0,0,0.15);
+  line-height: 140%;
 }
 
 .mirrordev .inside.drabble blockquote {
