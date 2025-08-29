@@ -2,7 +2,6 @@
 
 .overpassthread {
   width: 500px;
-  min-height: 100px;
   background: var(--shade-white-h);
   margin: 20px auto;
   box-shadow: var(--box-shadow);
