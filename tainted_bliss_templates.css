@@ -177,3 +177,143 @@
 .voidline .inner .description {
   text-align: justify;
 }
+
+
+
+/* TRACKER */
+
+/**
+ * Tabs Container
+ */
+
+/**
+ * Tabs Block
+ */
+.tabs-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/**
+ * Tabs
+ */
+.tracker-tabs-container .tabs {
+	display: flex;
+	flex-wrap: wrap;
+  width: 800px;
+  background: var(--shade-black-h);
+  border-radius: 5px 5px 7px 7px;
+  padding-bottom: 0px;
+}
+
+.tracker-tabs-container .tabs label {
+  flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+ 		order: 1;
+		width: calc((800px / 5) - 30px);
+	background: var(--shade-white-h);
+  margin: 15px;
+  font-size: 20px;
+  font-family: var(--second-font); 
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+	transition: background-color ease 0.3s;
+  margin-bottom: 0px;
+}
+
+.tracker-tabs-container .tabs label b {
+  font-weight: normal;
+   background-clip: text;
+  color: transparent;
+  background-image: var(--gradient-1-d);
+}
+
+
+.tracker-tabs-container .tabs .tab {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+	width: 100%;
+	height: 100%;
+	display: none;
+	box-shadow: var(--box-shadow);
+  background: var(--shade-white-h);
+  border-radius: 0px 0px 5px 5px;
+  padding: 15px;
+  font-family: var(--main-font);
+  font-size: 16px;
+  order: 2;
+  margin-top: 15px;
+}
+
+.tracker-tabs-container .tabs [type=radio] {
+	display: none;
+}
+
+.tracker-tabs-container .tabs [type=radio]:checked + label {
+	color: var(--text-white);
+  border: none;
+  background-image: var(--gradient-1-d)
+}
+
+.tracker-tabs-container .tabs [type=radio]:checked + label b {
+  background-image: none;
+  color: var(--text-white);
+}
+
+.tracker-tabs-container .tabs [type=radio]:checked + label + .tab {
+	display: flex;
+}
+
+.tracker-tabs-container b {
+     background-clip: text;
+  color: transparent;
+  background-image: var(--gradient-1-d);
+  font-weight: normal;
+}
+
+.tracker-tabs-container .trackd {
+  width: 100%;
+   background: var(--shade-medium-h);
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  font-size: 19px;
+}
+
+.tracker-tabs-container .trackd .ph {
+    font-size: 40px;
+  margin-right: 15px;
+  background-clip: text;
+  color: transparent;
+  background-image: var(--gradient-1-d);
+}
+
+.tracker-tabs-container .trackd a {
+    background-clip: text;
+  color: transparent;
+  background-image: var(--gradient-1-d);
+  font-family: var(--second-font);
+}
+
+.tracker-tabs-container .trackd.inactive {
+  text-decoration: line-through;
+}
+
+.tracker-tabs-container .trackd.head {
+  justify-content: center;
+  font-size: 30px;
+  font-family: var(--accent-font);
+  color: var(--text-white);
+  background: var(--shade-black-h);
+}
+
